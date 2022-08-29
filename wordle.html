@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+   
+<head>
+    <title>Wordle Game</title>
+
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+   
+    <!-- CSS file Included -->
+    <link rel="stylesheet"
+        type="text/css" href="wordle.css">
+</head>
+   
+<body>
+    <div id="main">
+        <div class="card p-3 py-4">
+            <h1>WORDLE</h1>
+            <br><br>
+            <table>
+                <tr>
+                    <td><div id="w00"></div></td> 
+                    <td><div id="w01"></div></td>  
+                    <td><div id="w02"></div></td>
+                    <td><div id="w03"></div></td>    
+                    <td><div id="w04"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="w10"></div></td> 
+                    <td><div id="w11"></div></td>  
+                    <td><div id="w12"></div></td>
+                    <td><div id="w13"></div></td>    
+                    <td><div id="w14"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="w20"></div></td> 
+                    <td><div id="w21"></div></td>  
+                    <td><div id="w22"></div></td>
+                    <td><div id="w23"></div></td>    
+                    <td><div id="w24"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="w30"></div></td> 
+                    <td><div id="w31"></div></td>  
+                    <td><div id="w32"></div></td>
+                    <td><div id="w33"></div></td>    
+                    <td><div id="w34"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="w40"></div></td> 
+                    <td><div id="w41"></div></td>  
+                    <td><div id="w42"></div></td>
+                    <td><div id="w43"></div></td>    
+                    <td><div id="w44"></div></td>
+                </tr>
+                <tr>
+                    <td><div id="w50"></div></td> 
+                    <td><div id="w51"></div></td>  
+                    <td><div id="w52"></div></td>
+                    <td><div id="w53"></div></td>    
+                    <td><div id="w54"></div></td>
+                </tr>
+            </table>
+            <br><br>
+            <!-- Button to reset game -->
+            <button id="reset">
+                RESET
+            </button>
+    
+            <br><br>
+            <!-- Space to show player turn -->
+            <p id="msg"></p>
+        </div>   
+    </div>
+</body>
+<script src="wordle.js"></script>
+</html>
