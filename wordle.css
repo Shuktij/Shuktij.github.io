@@ -1,0 +1,90 @@
+<style>
+    /* CSS Code */
+    /* Heading */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: grid;
+        place-items: center;
+        background-image: url(3D.gif);
+    }
+
+    .card {
+        width: 370px;
+        border-radius: 20px;
+        background: linear-gradient(145deg, #9a40a9, #b74cc9);
+        box-shadow:  20px 20px 60px #913ca0, 
+                    -20px -20px 60px #c552d8;
+        border: none
+    }
+    
+    h1 {
+        box-sizing: border-box;
+        width: 220px;
+        height: 34px;
+        border: 1px solid rgb(255, 38, 30);
+        background-color: white;
+        margin: auto;
+        border-radius: 4px;
+        color: #16a004;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+ 
+    /* 3*3 Grid */
+    #w00, #w01, #w02, #w03, #w04, 
+    #w10, #w11, #w12, #w13, #w14,
+    #w20, #w21, #w22, #w23, #w24,
+    #w30, #w31, #w32, #w33, #w34,
+    #w40, #w41, #w42, #w43, #w44,
+    #w50, #w51, #w52, #w53, #w54{
+        width: 39px;
+        height: 39px;
+        margin: 2px;
+        border: 3px solid rgb(55, 235, 10);
+        border-radius: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    /* Reset Button */
+    #but {
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 17px;
+        cursor: pointer;
+        color:white;
+        padding:15px; 
+        border: none;
+        border-radius: 40px;
+        outline:0 !important;
+        background: #16a004;
+        box-shadow:  28px 28px 57px #933da2, 
+                -28px -28px 57px #c351d6;
+    }
+ 
+    /* Player turn space */
+    #print {
+        box-sizing: border-box;
+        width: 200px;
+        height: 30px;
+        border: 1px solid rgb(19, 1, 1);
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+        background-color: white;
+        color: red;
+        font-size: 20px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+</style>
